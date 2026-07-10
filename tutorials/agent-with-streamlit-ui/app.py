@@ -74,11 +74,11 @@ def generate_response(user_prompt, file_content=None):
 
 
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="wide")
-st.title("🤖 AI Chatbot Assistant")
+st.title("A7mad 🏖️ Chatbot Assistant")
 st.markdown("**Welcome!** Ask anything or upload a file for the bot to analyze.")
 
 # File upload section in the sidebar
-uploaded_file = st.sidebar.file_uploader("Upload a file (optional):", type=["txt", "pdf"])
+uploaded_file = st.sidebar.file_uploader("لو عايز ترفع ملف  (optional):", type=["txt", "pdf"])
 file_content = None
 
 if uploaded_file is not None:
